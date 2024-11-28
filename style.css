@@ -1,0 +1,130 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e2f;
+    color: #ececec;
+}
+
+h1 {
+    text-align: center;
+    color: #ff6f61;
+    margin: 30px 0;
+    font-size: 2.5rem;
+}
+
+form {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #292943;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.user-info {
+    margin-bottom: 25px;
+}
+
+.user-info label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+    color: #ffcccb;
+}
+
+.user-info input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #3c3c5e;
+    color: #ececec;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question p {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #ffcccb;
+}
+
+.options label {
+    display: block;
+    margin: 8px 0;
+    font-size: 1.1rem;
+    padding-left: 5px;
+    color: #fff;
+}
+
+.options input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e95c51;
+}
+
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: #292943;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+table th,
+table td {
+    padding: 15px;
+    border: 1px solid #444;
+    text-align: left;
+    color: #ececec;
+}
+
+table th {
+    background-color: #ff6f61;
+    color: white;
+    font-size: 1.1rem;
+}
+
+table tr:nth-child(even) {
+    background-color: #2f2f4a;
+}
+
+table tr:hover {
+    background-color: #3c3c5e;
+}
+
+@media (max-width: 768px) {
+    form {
+        padding: 20px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    table th,
+    table td {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
